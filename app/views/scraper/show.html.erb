@@ -1,8 +1,10 @@
 <h1>Extract runners</h1>
 
 <%= form_tag :action => 'extract' do %>
-<p><label for = "book_title">URL</label>:
-<%= text_field 'scraper', 'url' %></p>
+<div class="form-group">
+  <p><label for = "book_title">URL</label>:
+  <%= text_field 'scraper', 'url', {class: 'form-control'} %></p>
+</div>
 
 <%= submit_tag "Generate" %>
 

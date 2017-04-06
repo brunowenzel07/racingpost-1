@@ -94,6 +94,7 @@ module Scrapable
           runners <<
 
             Scraper.new({
+            count: count + 1,
             date: date,
             time: time,
             course: course,

@@ -1,5 +1,5 @@
 class Scraper < ActiveRecord::Base
-  attr_accessor :date, :time, :course, :going, :distance, :pos, :draw, :horse_name, :country, :jockey, :trainer, :distance_behind, :total_dis_behind, :age, :weight, :or_data, :top_speed, :winning_time, :comment
+  attr_accessor :count, :date, :time, :course, :going, :distance, :pos, :draw, :horse_name, :country, :jockey, :trainer, :distance_behind, :total_dis_behind, :age, :weight, :or_data, :top_speed, :winning_time, :comment
 
   # def initialize(first_name, last_name)
   #   @first_name = first_name

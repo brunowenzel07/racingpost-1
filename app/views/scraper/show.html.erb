@@ -1,11 +1,27 @@
-<h1>Extract runners</h1>
+<div class="container">
+<h1>Extract horse runners</h1>
+<div class="row">
+  <div class="col-md-10">
+  <%= form_tag :action => 'extract' do %>
+  <div class="form-group">
+    <p>I built this site for a <a href="https://www.upwork.com/jobs/~010109233a72b07cfe">project</a> I found on Upwork.  Since I'm very new to Upwork, my proposal was not accepted by the client - which is totally understandable. I got carried away and finished on it anyway in 30 minutes.  It's not always about the money :)
 
-<%= form_tag :action => 'extract' do %>
-<div class="form-group">
-  <p><label for = "book_title">URL</label>:
-  <%= text_field 'scraper', 'url', {class: 'form-control'} %></p>
+    <p><b>Please enter the URL from racingpost result page.</b><em> (already inserted in the input for your convenience.)</em>.
+    <p><%= text_field 'scraper', 'url', {class: 'form-control', value: 'https://www.racingpost.com/results/26/huntingdon/2017-04-03/670576'} %></p>
+  </div>
+
+  <%= submit_tag "Generate" %>
+  <% end -%>
+  </div>
 </div>
-
-<%= submit_tag "Generate" %>
-
-<% end -%>
+<div class="row">
+  <div class="col-md-10">
+  <h2>Examples</h2>
+  <a class="image-wrapper" href="/assets/therapistsPA.png">
+    <img src="/assets/therapistsPA.png"/>
+  </a>
+  -->
+  <a class="image-wrapper" href="/assets/sample-data-table.png">
+    <img src="/assets/sample-data-table.png"/>
+  </a>
+</div>

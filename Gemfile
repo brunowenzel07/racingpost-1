@@ -30,6 +30,8 @@ gem 'awesome_print'
 gem 'spreadsheet', '~> 1.1', '>= 1.1.4'
 gem 'to_xls'
 
+gem 'rails_12factor', group: :production
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
